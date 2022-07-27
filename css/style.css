@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+    url('back.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 100vh;
+
+}
+.backing{
+    background-color: aquamarine;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,'Roboto';
+    text-align: center;
+    font-size: 15px;
+    background-size: cover;
+    height: 100vh;
+}
+.form-control{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,'Roboto';
+    text-align: center;
+    font-size: 15px;
+}
+.submit-button{
+    background-color:bisque;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.input-textarea{
+    font-size:15px;
+    font-family: monospace;
+    width:477px;
+    height:183px;
+    resize: none;
+    font-style:normal;
+    
+}
+
+
+
+    
+@font-face {
+    font-family: 'Circular-Loom';
+    font-style: normal;
+    font-weight:400;
+    src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+@font-face {
+    font-weight: 500;
+    font-family: 'Circular-Loom';
+    font-style: normal;
+    src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Circular-Loom';
+    font-style: normal;
+    font-weight:700;
+    src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Circular-Loom';
+    font-style: normal;
+    font-weight: 900;
+    src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}
